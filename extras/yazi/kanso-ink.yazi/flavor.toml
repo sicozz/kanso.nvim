@@ -44,7 +44,7 @@ progress_error = { fg = "#14171D", bg = "#14171D" }
 perm_type = { fg = "#87A987" }
 perm_read = { fg = "#E6C384" }
 perm_write = { fg = "#E46876" }
-perm_exec = { fg = "#7AA89F" }
+perm_exec = { fg = "#fff000" }
 perm_sep = { fg = "#938AA9" }
 
 
@@ -79,7 +79,7 @@ cand = { fg = "#8EA4A2" }
 desc = { fg = "#C5C9C7" }
 
 [help]
-on = { fg = "#7AA89F" }
+on = { fg = "#fff000" }
 run = { fg = "#938AA9" }
 desc = {}
 hovered = { reversed = true, bold = true }
@@ -108,7 +108,7 @@ rules = [
     { name = "*", is = "orphan", fg = "#E46876" },
 
     # executables
-    { name = "*", is = "exec", fg = "#7AA89F" },
+    { name = "*", is = "exec", fg = "#fff000" },
 
     # fallback
     { name = "*", fg = "#C5C9C7" },

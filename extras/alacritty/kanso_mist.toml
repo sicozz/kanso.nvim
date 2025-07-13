@@ -7,21 +7,21 @@ foreground = '#C5C9C7'
 [colors.normal]
 black = '#22262D'
 red = '#c4746e'
-green = '#8a9a7b'
+green = '#ffdd00'
 yellow = '#c4b28a'
-blue = '#8ba4b0'
+blue = '#ffffff'
 magenta = '#a292a3'
-cyan = '#8ea4a2'
+cyan = '#ffffcc'
 white = '#a4a7a4'
 
 [colors.bright]
 black = '#5C6066'
 red = '#e46876'
-green = '#87a987'
+green = '#ffee44'
 yellow = '#e6c384'
-blue = '#7fb4ca'
+blue = '#ffff14'
 magenta = '#938aa9'
-cyan = '#7aa89f'
+cyan = '#fff000'
 white = '#C5C9C7'
 
 [colors.selection]
