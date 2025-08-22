@@ -536,4 +536,115 @@ return {
             },
         }
     end,
+    ---@param palette PaletteColors
+    ---@return ThemeColors
+    goprime = function(palette)
+        return {
+            ui = {
+                none = "NONE",
+                fg = palette.goprimeWhite,
+                fg_dim = palette.goprimeWhite1,
+                fg_reverse = palette.goprimeBlack,
+
+                bg_dim = palette.goprimeBlack,
+                bg_m3 = palette.goprimeBlack,
+                bg_m2 = palette.goprimeBlack,
+                bg_m1 = palette.goprimeBlack,
+                bg = palette.goprimeBlack,
+                bg_p1 = palette.goprimeBlack1,
+                bg_p2 = palette.goprimeBlack2,
+
+                bg_gutter = palette.goprimeBlack1,
+                special = palette.goprimeYellow,
+                indent_line = palette.goprimeBlack3,
+                active_indent_line = palette.goprimeYellow3,
+                whitespace = palette.goprimeBlack3,
+                nontext = palette.goprimeWhite3,
+
+                bg_visual = palette.goprimeBlack3,
+                bg_search = palette.goprimeYellow2,
+
+                cursor_line_nr_foreground = palette.goprimeBlack4,
+                cursor_line_nr_active_foreground = palette.goprimeYellow,
+                cursor_bg = palette.goprimeYellow,
+                cursor_fg = palette.goprimeBlack,
+
+                pmenu = {
+                    fg = palette.goprimeWhite,
+                    fg_sel = palette.goprimeBlack,
+                    bg = palette.goprimeBlack2,
+                    bg_sel = palette.goprimeYellow,
+                    bg_thumb = palette.goprimeBlack4,
+                    bg_sbar = palette.goprimeBlack1,
+                },
+
+                float = {
+                    fg = palette.goprimeWhite,
+                    bg = palette.goprimeBlack1,
+                    fg_border = palette.goprimeYellow,
+                    bg_border = palette.goprimeBlack,
+                },
+            },
+            syn = {
+                string = palette.goprimeYellow1,
+                variable = palette.goprimeWhite,
+                number = palette.goprimeYellow1,
+                constant = palette.goprimeYellow3,
+                identifier = palette.goprimeYellow1,
+                parameter = palette.goprimeWhite2,
+                fun = palette.goprimeWhite,
+                statement = palette.goprimeYellow3,
+                keyword = palette.goprimeYellow3,
+                operator = palette.goprimeYellow,
+                preproc = palette.goprimeWhite3,
+                type = palette.goprimeWhite1,
+                regex = palette.pearlCyan,
+                deprecated = palette.goprimeWhite4,
+                punct = palette.goprimeWhite3,
+                comment = palette.goprimeWhite4,
+                special1 = palette.goprimeYellow,
+                special2 = palette.goprimeYellow1,
+                special3 = palette.goprimeYellow2,
+            },
+            diag = {
+                error = palette.goprimeRed,
+                ok = palette.goprimeGreen,
+                warning = palette.goprimeOrange,
+                info = palette.goprimeYellow3,
+                hint = palette.goprimeYellow4,
+            },
+            diff = {
+                add = palette.goprimeYellow5,
+                delete = palette.goprimeYellow5,
+                change = palette.goprimeYellow5,
+                text = palette.goprimeYellow2,
+            },
+            vcs = {
+                added = palette.goprimeGreen,
+                removed = palette.goprimeRed,
+                changed = palette.goprimeOrange,
+                untracked = palette.goprimeWhite3,
+            },
+            term = {
+                palette.goprimeBlack, -- black
+                palette.goprimeRed, -- red
+                palette.goprimeGreen, -- green
+                palette.goprimeYellow, -- yellow
+                palette.goprimeYellow3, -- blue (using yellow variant)
+                palette.goprimeYellow2, -- magenta (using yellow variant)
+                palette.goprimeYellow1, -- cyan (using yellow variant)
+                palette.goprimeWhite, -- white
+                palette.goprimeBlack4, -- bright black
+                palette.goprimeRed, -- bright red
+                palette.goprimeGreen, -- bright green
+                palette.goprimeYellow1, -- bright yellow
+                palette.goprimeYellow2, -- bright blue (using yellow variant)
+                palette.goprimeYellow3, -- bright magenta (using yellow variant)
+                palette.goprimeYellow4, -- bright cyan (using yellow variant)
+                palette.goprimeWhite1, -- bright white
+                palette.goprimeOrange, -- extended color 1
+                palette.goprimeYellow4, -- extended color 2
+            },
+        }
+    end,
 }

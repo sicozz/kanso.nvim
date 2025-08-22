@@ -130,6 +130,31 @@ local palette = {
     pearlTeal2 = "#ffffff",
     pearlTeal3 = "#eeeeee",
     pearlCyan = "#ffffcc",
+
+    -- GoPrime theme colors - futuristic Go game board (image-accurate palette)
+    goprimeBlack = "#000000",        -- Pure black background
+    goprimeBlack1 = "#0a0a0a",       -- Slightly lighter black
+    goprimeBlack2 = "#151500",       -- Circuit trace dark
+    goprimeBlack3 = "#202020",       -- Selected/hover states
+    goprimeBlack4 = "#2a2a2a",       -- Borders and separators
+
+    goprimeWhite = "#ffffff",        -- Pure white circuit traces
+    goprimeWhite1 = "#f0f0f0",       -- Slightly dimmed white
+    goprimeWhite2 = "#e0e0e0",       -- More dimmed white
+    goprimeWhite3 = "#cccccc",       -- Subtle white for comments
+    goprimeWhite4 = "#999999",       -- Very dim white
+
+    goprimeYellow = "#ffff14",       -- Bright yellow Go pieces
+    goprimeYellow1 = "#ffff44",      -- Slightly muted yellow
+    goprimeYellow2 = "#e6e610",      -- Darker yellow
+    goprimeYellow3 = "#cccc11",      -- More subtle yellow
+    goprimeYellow4 = "#999909",      -- Dark yellow/amber
+    goprimeYellow5 = "#666606",      -- Very dark yellow
+
+    -- Git indicators only (using minimal color for necessity)
+    goprimeGreen = "#88cc88",        -- Muted green for git add
+    goprimeRed = "#cc8888",          -- Muted red for git delete
+    goprimeOrange = "#ccaa88",       -- Muted orange for git change
 }
 
 local M = {}

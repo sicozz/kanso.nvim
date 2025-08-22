@@ -19,14 +19,14 @@ M.config = {
     transparent = false,
     dimInactive = false,
     terminalColors = true,
-    colors = { theme = { zen = {}, pearl = {}, ink = {}, all = {} }, palette = {} },
+    colors = { theme = { zen = {}, pearl = {}, ink = {}, mist = {}, goprime = {}, all = {} }, palette = {} },
     ---@type fun(colors: KansoColorsSpec): table<string, table>
     overrides = function()
         return {}
     end,
     ---@type { dark: string, light: string }
-    background = { dark = "ink", light = "pearl" },
-    theme = "ink",
+    background = { dark = "goprime", light = "pearl" },
+    theme = "goprime",
     compile = false,
 }
 
