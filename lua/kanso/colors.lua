@@ -134,8 +134,8 @@ local palette = {
     -- GoPrime theme colors - futuristic Go game board (image-accurate palette)
     goprimeBlack = "#000000",        -- Pure black background
     goprimeBlack1 = "#0a0a0a",       -- Slightly lighter black
-    goprimeBlack2 = "#151500",       -- Circuit trace dark
-    goprimeBlack3 = "#202020",       -- Selected/hover states
+    goprimeBlack2 = "#292900",       -- Circuit trace dark
+    goprimeBlack3 = "#3c3c00",       -- Selected/hover states
     goprimeBlack4 = "#2a2a2a",       -- Borders and separators
 
     goprimeWhite = "#ffffff",        -- Pure white circuit traces
@@ -152,9 +152,9 @@ local palette = {
     goprimeYellow5 = "#666606",      -- Very dark yellow
 
     -- Git indicators only (using minimal color for necessity)
-    goprimeGreen = "#88cc88",        -- Muted green for git add
-    goprimeRed = "#cc8888",          -- Muted red for git delete
-    goprimeOrange = "#ccaa88",       -- Muted orange for git change
+    goprimeGreen = "#00a56e",        -- Muted green for git add
+    goprimeRed = "#ff142d",          -- Muted red for git delete
+    goprimeOrange = "#e6e610",       -- Muted orange for git change
 
     -- GoUltra theme colors - futuristic cyan/teal theme matching GoUltra.png
     goultraBlack = "#000000",        -- Pure black background

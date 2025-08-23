@@ -9,8 +9,8 @@ kanso.normal = {
 }
 
 kanso.insert = {
-    a = { bg = theme.diag.ok, fg = theme.ui.bg },
-    b = { bg = theme.ui.none, fg = theme.diag.ok },
+    a = { bg = theme.ui.special, fg = theme.ui.bg },
+    b = { bg = theme.ui.none, fg = theme.ui.special },
 }
 
 kanso.command = {
@@ -19,8 +19,8 @@ kanso.command = {
 }
 
 kanso.visual = {
-    a = { bg = theme.syn.keyword, fg = theme.ui.bg },
-    b = { bg = theme.ui.none, fg = theme.syn.keyword },
+    a = { bg = theme.ui.fg, fg = theme.ui.bg },
+    b = { bg = theme.ui.none, fg = theme.ui.special },
 }
 
 kanso.replace = {
