@@ -647,4 +647,115 @@ return {
             },
         }
     end,
+    ---@param palette PaletteColors
+    ---@return ThemeColors
+    goultra = function(palette)
+        return {
+            ui = {
+                none = "NONE",
+                fg = palette.goultraWhite,
+                fg_dim = palette.goultraWhite1,
+                fg_reverse = palette.goultraBlack,
+
+                bg_dim = palette.goultraBlack,
+                bg_m3 = palette.goultraBlack,
+                bg_m2 = palette.goultraBlack,
+                bg_m1 = palette.goultraBlack,
+                bg = palette.goultraBlack,
+                bg_p1 = palette.goultraBlack1,
+                bg_p2 = palette.goultraBlack2,
+
+                bg_gutter = palette.goultraBlack1,
+                special = palette.goultraCyan,
+                indent_line = palette.goultraBlack3,
+                active_indent_line = palette.goultraCyan3,
+                whitespace = palette.goultraBlack3,
+                nontext = palette.goultraWhite3,
+
+                bg_visual = palette.goultraBlack3,
+                bg_search = palette.goultraCyan2,
+
+                cursor_line_nr_foreground = palette.goultraBlack4,
+                cursor_line_nr_active_foreground = palette.goultraCyan,
+                cursor_bg = palette.goultraCyan,
+                cursor_fg = palette.goultraBlack,
+
+                pmenu = {
+                    fg = palette.goultraWhite,
+                    fg_sel = palette.goultraBlack,
+                    bg = palette.goultraBlack2,
+                    bg_sel = palette.goultraCyan,
+                    bg_thumb = palette.goultraBlack4,
+                    bg_sbar = palette.goultraBlack1,
+                },
+
+                float = {
+                    fg = palette.goultraWhite,
+                    bg = palette.goultraBlack1,
+                    fg_border = palette.goultraCyan,
+                    bg_border = palette.goultraBlack,
+                },
+            },
+            syn = {
+                string = palette.goultraCyan1,
+                variable = palette.goultraWhite,
+                number = palette.goultraCyan1,
+                constant = palette.goultraCyan3,
+                identifier = palette.goultraCyan1,
+                parameter = palette.goultraWhite2,
+                fun = palette.goultraWhite,
+                statement = palette.goultraCyan3,
+                keyword = palette.goultraCyan3,
+                operator = palette.goultraCyan,
+                preproc = palette.goultraWhite3,
+                type = palette.goultraWhite1,
+                regex = palette.pearlCyan,
+                deprecated = palette.goultraWhite4,
+                punct = palette.goultraWhite3,
+                comment = palette.goultraWhite4,
+                special1 = palette.goultraCyan,
+                special2 = palette.goultraCyan1,
+                special3 = palette.goultraCyan2,
+            },
+            diag = {
+                error = palette.goultraRed,
+                ok = palette.goultraGreen,
+                warning = palette.goultraOrange,
+                info = palette.goultraCyan3,
+                hint = palette.goultraCyan4,
+            },
+            diff = {
+                add = palette.goultraCyan5,
+                delete = palette.goultraCyan5,
+                change = palette.goultraCyan5,
+                text = palette.goultraCyan2,
+            },
+            vcs = {
+                added = palette.goultraGreen,
+                removed = palette.goultraRed,
+                changed = palette.goultraOrange,
+                untracked = palette.goultraWhite3,
+            },
+            term = {
+                palette.goultraBlack, -- black
+                palette.goultraRed, -- red
+                palette.goultraGreen, -- green
+                palette.goultraCyan, -- yellow (using cyan)
+                palette.goultraCyan3, -- blue (using cyan variant)
+                palette.goultraCyan2, -- magenta (using cyan variant)
+                palette.goultraCyan1, -- cyan (using cyan variant)
+                palette.goultraWhite, -- white
+                palette.goultraBlack4, -- bright black
+                palette.goultraRed, -- bright red
+                palette.goultraGreen, -- bright green
+                palette.goultraCyan1, -- bright yellow (using cyan variant)
+                palette.goultraCyan2, -- bright blue (using cyan variant)
+                palette.goultraCyan3, -- bright magenta (using cyan variant)
+                palette.goultraCyan4, -- bright cyan (using cyan variant)
+                palette.goultraWhite1, -- bright white
+                palette.goultraOrange, -- extended color 1
+                palette.goultraCyan4, -- extended color 2
+            },
+        }
+    end,
 }

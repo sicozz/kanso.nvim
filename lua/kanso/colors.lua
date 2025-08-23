@@ -155,6 +155,31 @@ local palette = {
     goprimeGreen = "#88cc88",        -- Muted green for git add
     goprimeRed = "#cc8888",          -- Muted red for git delete
     goprimeOrange = "#ccaa88",       -- Muted orange for git change
+
+    -- GoUltra theme colors - futuristic cyan/teal theme matching GoUltra.png
+    goultraBlack = "#000000",        -- Pure black background
+    goultraBlack1 = "#0a0a0a",       -- Slightly lighter black
+    goultraBlack2 = "#001515",       -- Circuit trace dark with cyan tint
+    goultraBlack3 = "#202020",       -- Selected/hover states
+    goultraBlack4 = "#2a2a2a",       -- Borders and separators
+
+    goultraWhite = "#ffffff",        -- Pure white circuit traces
+    goultraWhite1 = "#f0f0f0",       -- Slightly dimmed white
+    goultraWhite2 = "#e0e0e0",       -- More dimmed white
+    goultraWhite3 = "#cccccc",       -- Subtle white for comments
+    goultraWhite4 = "#999999",       -- Very dim white
+
+    goultraCyan = "#00ffb7",         -- Primary cyan color
+    goultraCyan1 = "#44ffcc",        -- Slightly muted cyan
+    goultraCyan2 = "#10e6a6",        -- Darker cyan
+    goultraCyan3 = "#11cc95",        -- More subtle cyan
+    goultraCyan4 = "#099973",        -- Dark cyan/teal
+    goultraCyan5 = "#066650",        -- Very dark cyan
+
+    -- Git indicators (using minimal color for necessity)
+    goultraGreen = "#88cc88",        -- Muted green for git add
+    goultraRed = "#cc8888",          -- Muted red for git delete
+    goultraOrange = "#ccaa88",       -- Muted orange for git change
 }
 
 local M = {}
